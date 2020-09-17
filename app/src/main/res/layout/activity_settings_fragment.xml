@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/user_details" android:layout_marginBottom="20dp" android:layout_marginTop="10dp" android:id="@+id/btSetUserPrefs"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/preferred_unit" android:id="@+id/tvPreferredUnit" android:textSize="20sp" android:paddingLeft="20dp" android:layout_weight="1"/>
+
+    <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/UnitSpinner"> </Spinner>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/save" android:layout_marginBottom="20dp" android:layout_marginTop="50dp" android:id="@+id/btSaveSettings"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/load_sample" android:id="@+id/btLoadSampleData"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/wipe" android:layout_marginTop="100dp" android:id="@+id/btWipeData" android:onClick="wipeAllData"/>
+
+</LinearLayout>

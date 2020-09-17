@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="20sp" android:textAlignment="center" android:text="@string/today_weight" android:id="@+id/tvCheckInTitle"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etCheckInWeight" android:inputType="numberDecimal" android:ems="10" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvCheckInUnit" android:layout_weight="1"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/add" android:id="@+id/btAdd" android:onClick="AddWeight"/>
+
+</LinearLayout>

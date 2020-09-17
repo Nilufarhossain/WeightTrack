@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:theme="@style/ThemeOverlay.AppCompat.Dark" android:padding="16dp" android:orientation="vertical" android:gravity="bottom" android:background="?attr/colorPrimaryDark" android:layout_height="180dp" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:text="Name goes here" android:id="@+id/tvHeaderName"/>
+
+</LinearLayout>

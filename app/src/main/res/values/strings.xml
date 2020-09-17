@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name" translatable="false">WeightTrack</string>
+
+    <string name="action_share" translatable="false">Share</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="settings" translatable="false">Settings</string>
+
+    <string name="calculate" translatable="false">Calculate</string>
+
+    <string name="action_home" translatable="false">Home</string>
+
+    <string name="graph_title" translatable="false">%s\'s Progress</string>
+
+    <string name="default_graph_title" translatable="false">Your Progress</string>
+
+    <string name="check_in" translatable="false">Check In</string>
+
+    <string name="add" translatable="false">Add</string>
+
+    <string name="today_weight" translatable="false">Today\'s Weight:</string>
+
+    <string name="calculator" translatable="false">Body Calculator</string>
+
+    <string name="bmi_calc" translatable="false">BMI Calculator</string>
+
+    <string name="history" translatable="false">History</string>
+
+    <string name="about" translatable="false">About</string>
+
+    <string name="date" translatable="false">Date</string>
+
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+
+    <string name="preferred_unit" translatable="false">Preferred Unit</string>
+
+    <string name="user_details" translatable="false">Set Personal Details</string>
+
+    <string name="save" translatable="false">Save</string>
+
+    <string name="wipe" translatable="false">Wipe All Data</string>
+
+    <string name="confirm_title" translatable="false">Wipe All Data</string>
+
+    <string name="confirm_title_sample_data" translatable="false">Load Sample Data</string>
+
+    <string name="confirm_desc" translatable="false">Are you sure you want to wipe all data? This includes weights and preferences!\n\nTrackie will restart</string>
+
+    <string name="confirm_desc_sample_data" translatable="false">Are you sure you want to load sample data? This includes weights and preferences!\n\nTrackie will restart</string>
+
+    <string name="yes" translatable="false">Yes</string>
+
+    <string name="no" translatable="false">No</string>
+
+    <string name="stats_error" translatable="false">Stats and calculations will be available to you after 5 entries\n\nYou can load sample data from the settings menu</string>
+
+    <string name="enter_a_weight" translatable="false">Enter a weight first</string>
+
+    <string name="nav_header_error" translatable="false">Have you entered all your personal details?\n\nTo help make our calculations more precise, you can set these in the settings menu.</string>
+
+    <string name="name">Name:</string>
+
+    <string name="age">Age:</string>
+
+    <string name="height_with_unit" translatable="false">Height (%s):</string>
+
+    <string name="weight_with_unit" translatable="false">Weight (%s):</string>
+
+    <string name="height" translatable="false">Height</string>
+
+    <string name="weight" translatable="false">Weight</string>
+
+    <string name="gender" translatable="false">Gender:</string>
+
+    <string name="nav_welcome" translatable="false">Welcome to Trackie %s.\n\nGood to see you back</string>
+
+    <string name="weight_change_last_week" translatable="false">Over the last week, your average daily weight change is: %s%s</string>
+
+    <string name="keep_it_up" translatable="false">Keep it up!</string>
+
+    <string name="keep_pushing" translatable="false">You can do it. Keep pushing!</string>
+
+    <string name="gain_streak" translatable="false">You are %d days into a weight gain streak!</string>
+
+    <string name="loss_streak" translatable="false">You are %d days into a weight loss streak!</string>
+
+    <string name="no_streak" translatable="false">No Current Streak</string>
+
+    <string name="bmi_main" translatable="false">Your BMI is: %.1f</string>
+
+    <string name="details" translatable="false">What is a BMI?</string>
+
+    <string name="underweight" translatable="false">Underweight</string>
+
+    <string name="normal" translatable="false">Healthy</string>
+
+    <string name="overweight" translatable="false">Overweight</string>
+
+    <string name="obese" translatable="false">Obese</string>
+
+    <string name="extremely_obese" translatable="false">Extremely Obese</string>
+
+    <string name="maintenence_calories" translatable="false">Daily Calories to maintain weight: %s</string>
+
+    <string name="bmi_body" translatable="false">"%s, Your BMI indicates that you are %s.\nKeep in mind that this is not an exact representation of your health\n\nFor more information see our details page linked below</string>
+
+    <string name="goal_weight" translatable="false">Goal Weight:</string>
+
+    <string name="deficit" translatable="false">Calorie Deficit: </string>
+
+    <string name="days_result" translatable="false">It will take %s days to reach your goal</string>
+
+    <string name="body_calc_null" translatable="false">Enter user data first!</string>
+
+    <string name="activity_level" translatable="false">Activity Level: </string>
+
+    <string name="share_title" translatable="false">Share your Trackie Data: </string>
+
+    <string name="bmi_website" translatable="false">http://healthyweight.health.gov.au/wps/portal/Home/get-started/are-you-a-healthy-weight/bmi/</string>
+
+    <string name="share_bmi" translatable="false">%s\'s BMI is: %s</string>
+
+    <string name="share_body" translatable="false">It would take me %d days to reach your goal of %.1f%s given a calorie deficit of %d</string>
+
+    <string name="github_readme" translatable="false">https://github.com/JaiLaff/Trackie/blob/master/README.md</string>
+
+    <string name="github" translatable="false">https://github.com/JaiLaff/Trackie/</string>
+
+    <string name="no_data" translatable="false">Welcome to Trackie, to begin enter data below</string>
+
+    <string name="load_sample" translatable="false">Load Sample Data</string>
+
+</resources>

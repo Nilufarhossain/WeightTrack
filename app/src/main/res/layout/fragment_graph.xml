@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:paddingTop="20dp" android:orientation="vertical" android:gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="30sp" android:textAlignment="center" android:text="@string/graph_title" android:id="@+id/graphTitle"/>
+
+    <com.github.mikephil.charting.charts.LineChart android:layout_height="300dp" android:layout_width="match_parent" android:id="@+id/graph"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="30dp" android:id="@+id/LAYOUT_Name">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tvUPName" android:textSize="25sp" android:text="@string/name" android:layout_weight="1" android:layout_gravity="center_vertical"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/etUPName" android:layout_weight="1" android:inputType="textPersonName" android:ems="10" android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/LAYOUT_Age">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tvUPAge" android:textSize="25sp" android:text="@string/age" android:layout_weight="1" android:layout_gravity="center_vertical"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/etUPAge" android:layout_weight="1" android:inputType="textPersonName|number" android:ems="10" android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/LAYOUT_Height">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tvUPHeight" android:textSize="25sp" android:text="@string/height_with_unit" android:layout_weight="1" android:layout_gravity="center_vertical"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/etUPHeight" android:layout_weight="1" android:inputType="textPersonName" android:ems="10" android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/LAYOUT_Gender">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvUPGender" android:textSize="25sp" android:text="@string/gender" android:layout_weight="1" android:layout_gravity="center_vertical"/>
+
+    <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/GenderSpinner" android:layout_weight=".5" android:layout_gravity="center_vertical" android:gravity="center_vertical"> </Spinner>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="50dp" android:id="@+id/btUPSave" android:text="@string/save"/>
+
+</LinearLayout>
